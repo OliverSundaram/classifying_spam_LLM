@@ -61,7 +61,7 @@ def classify(text: str, model, tokenizer, device) -> tuple[str, float]:
     return label, confidence
 
 
-st.set_page_config(page_title="spam_classifier", page_icon="▌", layout="centered")
+st.set_page_config(page_title="LLM Spam Classifier", page_icon="▌", layout="centered")
 
 st.markdown(
     """
